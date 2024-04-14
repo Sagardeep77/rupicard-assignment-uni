@@ -1,5 +1,4 @@
 import Image from "next/image";
-import AppScreen1 from "@/app/assets/app_screen_1.webp";
 const InstantCredit = () => {
   return (
     <div className="w-full md:flex md:justify-between ">
@@ -17,7 +16,7 @@ const InstantCredit = () => {
         </div>
       </div>
       <div className="relative h-[400px] w-[225px] md:w-[420px] md:h-[420px] max-w-[450px] z-[1] mx-6">
-        <Image src={AppScreen1} fill alt="one percent image" />
+        <Image src={`/assets/app_screen_1.webp`} fill alt="one percent image" />
       </div>
     </div>
   );

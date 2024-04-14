@@ -1,5 +1,4 @@
 import Image from "next/image";
-import ZeroForexImg from "@/app/assets/forex_globe.png";
 const ZeroForexMarkup = () => {
   return (
     <div className="w-full max-w-[1280px] mx-auto py-16 px-6 md:px-0">
@@ -11,7 +10,7 @@ const ZeroForexMarkup = () => {
           </p>
         </div>
         <div className="relative h-[420px] w-[225px] md:w-[420px] md:h-[420px] max-w-[420px] z-[1] mx-6">
-          <Image src={ZeroForexImg} fill alt="forex globe " />
+          <Image src={`/assets/forex_globe.png`} fill alt="forex globe " />
         </div>
       </div>
     </div>

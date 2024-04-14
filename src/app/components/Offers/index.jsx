@@ -1,5 +1,4 @@
 import Image from "next/image";
-import HeroImage from "@/app/assets/nx_wave_hero.png";
 import AssuredCashback from "./assuredCashback";
 import MoreCashback from "./moreCashback";
 import ZeroForexMarkup from "./zeroForexMarkup";
@@ -17,7 +16,7 @@ const Offers = () => {
                 5X more value than cashback
               </strong>{" "}
               at the Uni Store. Enjoy round the clock{" "}
-              <strong className="text-black">Whatsapp support</strong>. And it's{" "}
+              <strong className="text-black">Whatsapp support</strong>. And it&apos;s{" "}
               <strong className="text-black"> lifetime free</strong>; no joining
               fee, no annual charges.
             </p>

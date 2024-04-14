@@ -1,12 +1,11 @@
 import Image from "next/image";
-import HeroImage from "@/app/assets/nx_wave_hero.png";
 const Hero = () => {
   return (
     <div className="text-black w-full flex justify-center items-center h-[100vh]  bg-blue-400 ">
       <div className="flex flex-col md:flex-row-reverse mx-auto max-w-[1280px] w-full justify-center z-1 bg-transparent">
         <div className="relative h-auto w-[225px] md:w-[420px] md:h-[420px] max-w-[420px] z-[1] mx-6">
           <Image
-            src={HeroImage}
+            src={'/assets/nx_wave_hero.png'}
             fill
             alt="nx wave hero"
           />

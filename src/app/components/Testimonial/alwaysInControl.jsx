@@ -1,5 +1,4 @@
 import Image from "next/image";
-import AppScreen2 from "@/app/assets/app_screen_2.webp";
 const AlwaysInControl = () => {
   return (
     <div className="w-full md:flex md:justify-between ">
@@ -13,7 +12,7 @@ const AlwaysInControl = () => {
         
       </div>
       <div className="relative h-[400px] w-[225px] md:w-[420px] md:h-[420px] max-w-[420px] z-[1] mx-6">
-        <Image src={AppScreen2} fill alt="one percent image" />
+        <Image src={`/assets/app_screen_2.webp`} fill alt="one percent image" />
       </div>
     </div>
   );

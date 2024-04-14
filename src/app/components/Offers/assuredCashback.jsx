@@ -1,5 +1,4 @@
 import Image from "next/image";
-import AssuredImg from "@/app/assets/one_percent_cashback.png";
 const AssuredCashback = () => {
   return (
     <div className="w-full max-w-[1280px] mx-auto py-16 px-6 md:px-0">
@@ -17,7 +16,7 @@ const AssuredCashback = () => {
           </p>
         </div>
         <div className="relative h-[420px] w-[225px] md:w-[420px] md:h-[420px] max-w-[420px] z-[1] mx-6">
-          <Image src={AssuredImg} fill alt="one percent image" />
+          <Image src={`/assets/one_percent_cashback.png`} fill alt="one percent image" />
         </div>
       </div>
     </div>
